@@ -1,5 +1,9 @@
 """
-Given a matrix of odd order i.e(5*5). Task is to check if the center element of the matrix is equal to the individual sum of all the half diagonals.
+Given a matrix of odd order NxN. 
+
+Task is to check if the center element of the matrix is equal to the individual sum of all the half diagonals.
+
+Print Yes if the condition satisfies else print no.
 
 Input:
 F
