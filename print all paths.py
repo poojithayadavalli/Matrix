@@ -5,17 +5,21 @@ of a mXn matrix with the constraints that from each cell you can either move onl
 Examples :
 
 Input : 
+2 3
 1 2 3
 4 5 6
 Output :
 1 4 5 6
 1 2 5 6
 1 2 3 6
-
+Explanation:
+The possible paths from start to end are:
+{(1,4,5,6),(1,2,5,6),(1,2,3,6)}
 Input : 
+2 2
 1 2 
 3 4
-Output : 
+Output :
 1 2 4
 1 3 4
 Input:
@@ -31,6 +35,7 @@ Output:
 1 3 4 5 7 
 1 3 4 5 7
 Input:
+3 2
 1 2
 3 4
 5 6
